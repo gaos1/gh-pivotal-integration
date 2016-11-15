@@ -1,4 +1,5 @@
 source "http://rubygems.org"
+ruby '~> 2.3.0'
 # Add dependencies required to use your gem here.
 # Example:
 #   gem "activesupport", ">= 2.3.5"
@@ -19,6 +20,13 @@ group :default do
   gem "nokogiri", "~> 1.6.0"
   gem "sinatra", "~> 1.4.4"
   gem "rack", "~> 1.5.2"
+  gem "rake"
+  gem "rspec", "~> 2.14.1"
+  gem "rdoc", "~> 4.1.1"
+  gem "jeweler", "~> 2.0.0"
+  gem "simplecov", "~> 0.8.2"
+  gem "rack-test"
+  gem "pry"
 end
 
 # yo dawg, i herd u lieked jeweler

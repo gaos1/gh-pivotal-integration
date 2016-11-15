@@ -1,0 +1,11 @@
+---
+applications:
+- name: gh-traker-integration
+  memory: 256M
+  instances: 1
+  host: gh-traker-integration
+  command: rackup -p $PORT
+  env:
+    GH_OAUTH_TOKEN: [your github OAUTH token]
+    BASIC_USER: [set your admin user]
+    BASIC_PASSWORD: [set your password]

@@ -51,6 +51,15 @@ To deploy gh-pivotal-integration on a free Heroku account, simply follow these s
     git push heroku master
 ```
 
+## Deploy option #3: CloudFoundry
+
+Please edit manifest.yml and set your github OAUTH token
+
+```
+   bundle install
+   cf push
+```
+
 Your credentials are protected since [Heroku's Piggyback SSL is now a platform feature](https://devcenter.heroku.com/changelog-items/10).
 
 ## Pivotal Tracker Integration
